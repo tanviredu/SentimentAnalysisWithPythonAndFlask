@@ -1,10 +1,5 @@
 from flask import Flask, request, jsonify
 from textblob import TextBlob
-from textblob import download_corpora
-import nltk
-nltk.download("punkt")
-nltk.download("averaged_perceptron_tagger")
-nltk.download("wordnet")  # Needed for lemmatization
 
 
 app = Flask(__name__)
